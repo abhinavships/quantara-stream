@@ -7,7 +7,9 @@ from quantara_core import schemas
 
 RANGES = {"Vehicle.Speed": (-1, 250), "Battery.Temp": (-40, 120), "Coolant.Flow": (-0.5, 40),
           "Motor.Current": (-500, 800), "Battery.SoC": (0, 1.0001), "Battery.kmPerKwh": (0, 30),
-          "Pump.Duty": (0, 1.0001), "Power.kW": (-200, 300)}
+          "Pump.Duty": (0, 1.0001), "Power.kW": (-200, 300),
+          "Chassis.Accel.Long": (-20, 20), "Chassis.Accel.Lat": (-5, 5), "Chassis.Accel.Vert": (-20, 20),
+          "Steering.Angle": (-540, 540), "Gear": (0, 8)}
 EDGE_KINDS = {"summary", "escalation", "security", "command_result"}
 QUARANTINE_AFTER, RELEASE_AFTER, SECURITY_TTL_S = 3, 6, 120
 

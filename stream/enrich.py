@@ -11,7 +11,17 @@ VSS = {"Vehicle.Speed": "Vehicle.Speed",
        "Battery.SoC": "Vehicle.Powertrain.TractionBattery.StateOfCharge.Current",
        "Battery.kmPerKwh": "Vehicle.Powertrain.TractionBattery.Efficiency",
        "Pump.Duty": "Vehicle.Powertrain.TractionBattery.Cooling.PumpDuty",
-       "Power.kW": "Vehicle.Powertrain.ElectricMotor.Power"}
+       "Power.kW": "Vehicle.Powertrain.ElectricMotor.Power",
+       "Chassis.Accel.Long": "Vehicle.Acceleration.Longitudinal", "Chassis.Accel.Lat": "Vehicle.Acceleration.Lateral",
+       "Chassis.Accel.Vert": "Vehicle.Acceleration.Vertical", "Steering.Angle": "Vehicle.Chassis.SteeringWheel.Angle",
+       "Suspension.Travel.FL": "Vehicle.Chassis.Axle.Row1.Wheel.Left.Suspension.Travel",
+       "Suspension.Travel.FR": "Vehicle.Chassis.Axle.Row1.Wheel.Right.Suspension.Travel",
+       "Suspension.Travel.RL": "Vehicle.Chassis.Axle.Row2.Wheel.Left.Suspension.Travel",
+       "Suspension.Travel.RR": "Vehicle.Chassis.Axle.Row2.Wheel.Right.Suspension.Travel",
+       "Wheel.Speed.FL": "Vehicle.Chassis.Axle.Row1.Wheel.Left.Speed", "Wheel.Speed.FR": "Vehicle.Chassis.Axle.Row1.Wheel.Right.Speed",
+       "Wheel.Speed.RL": "Vehicle.Chassis.Axle.Row2.Wheel.Left.Speed", "Wheel.Speed.RR": "Vehicle.Chassis.Axle.Row2.Wheel.Right.Speed",
+       "Lamp.Brake": "Vehicle.Body.Lights.Brake.IsActive", "Lamp.LowBeam": "Vehicle.Body.Lights.Beam.Low.IsOn",
+       "Lamp.Hazard": "Vehicle.Body.Lights.Hazard.IsSignaling", "Gear": "Vehicle.Powertrain.Transmission.CurrentGear"}
 WINDOWS = {"5m": 300, "1h": 3600}
 WSIGNALS = ("Battery.Temp", "Coolant.Flow", "Battery.kmPerKwh", "Power.kW")
 
